@@ -1,0 +1,84 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Package/build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments and environment files
+venv/
+.python-version
+
+# Logs and reports
+*.log
+*.out
+*.err
+coverage.xml
+htmlcov/
+.coverage*
+.pytest_cache/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+
+# Caches
+.cache/
+
+# Local databases / vector stores
+vector_db/
+chroma_db/
+
+# If you want to ignore all sqlite databases (uncomment if desired)
+# *.sqlite3
+
+# Data ingestion intermediates (adjust if you want them versioned)
+/data/*.csv
+/data/*.tsv
+/data/*.json
+
+# RAG artifacts (add patterns as they emerge)
+*.index
+*.faiss
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Frontend (if Flask/Streamlit temp files appear)
+frontend/__pycache__/
+
+# Security
+*.pem
+*.key
+
+# Backup archives
+*.tar
+*.tar.gz
+*.zip
+
+# Node (if introduced later)
+node_modules/
+
+# VS Code local history
+.history/
+
+# Windows
+Desktop.ini
+
