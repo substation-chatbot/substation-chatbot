@@ -42,10 +42,6 @@ Thumbs.db
 # Caches
 .cache/
 
-# Local databases / vector stores
-vector_db/
-chroma_db/
-
 # If you want to ignore all sqlite databases (uncomment if desired)
 # *.sqlite3
 
